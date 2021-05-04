@@ -16,12 +16,12 @@
     margin: auto;
     width: 95%;
 }
-.col-12{
+.contenedor-detalle .col-12{
     text-align: right;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px 10px 30px 10px;
 }
-.col-4{
+.contenedor-detalle .col-4{
     text-align: right;
 }
 .row{

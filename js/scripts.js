@@ -8,8 +8,28 @@ function iniciarMap(){
 }
 function mensaje() {
     var nombre= document.getElementById('txtNombre').value
-    alert('Yo soy : ' + nombre);
+    var apellidos= document.getElementById('txtApellidos').value
+    alert('El usuario ' + nombre + ' ' + apellidos + ' ha sido ingresado correctamente');
+
     
+}
+
+function validaForm(){
+    var resp=validarut();
+    if (resp==false) {
+        return false;
+    }
+    resp = validaFecha();
+    if(resp==false){
+        return false;
+    }
+
+}
+
+function validaFecha(){
+    return true;
+
+    }
 }
 function validarut(){
     var rut = document.getElementById('txtRut').value;

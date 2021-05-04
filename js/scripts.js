@@ -29,7 +29,7 @@ function validaForm(){
 function validaFecha(){
     return true;
 
-    }
+    
 }
 function validarut(){
     var rut = document.getElementById('txtRut').value;

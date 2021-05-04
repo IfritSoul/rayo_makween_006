@@ -16,7 +16,7 @@
 }
 #formulario .form-contacto{
     width: 95%;
-    margin: auto;
+    margin: left;
     max-width: 600px;
     background: whitesmoke;
     border-radius: 8px;

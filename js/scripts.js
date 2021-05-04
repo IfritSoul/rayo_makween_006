@@ -1,3 +1,11 @@
+function iniciarMap(){
+    var coord = {lat: -33.4564218,lng:-70.6537969};
+    var map = new google.maps.Map(document.getElementById('map'),{
+        zoom: 10,
+        center: coord
+    });
+
+}
 function mensaje() {
     var nombre= document.getElementById('txtNombre').value
     alert('Yo soy : ' + nombre);

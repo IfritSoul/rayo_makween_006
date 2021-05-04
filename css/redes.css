@@ -1,0 +1,9 @@
+#redes{
+    background:rgb(218, 81, 81);
+    color: black;
+    padding: 10px;
+    
+}
+.red{
+    display: flex;
+}

@@ -1,0 +1,34 @@
+#detalle-trabajo h2{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+#detalle-trabajo{
+    color:black;
+    
+}
+.contenedor-detalle{
+    background: rgb(211, 93, 93);
+    border: solid 2px white;
+    border-radius: 5px;
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    width: 95%;
+}
+.col-12{
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 10px 30px 10px;
+}
+.col-4{
+    text-align: right;
+}
+.row{
+    padding: 10px;
+}
+.img-detalle{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}

@@ -1,0 +1,43 @@
+#registro{
+    background: rgb(218, 81, 81);
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+#registro .form-titulo{
+    background: rgb(77, 77, 77);
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    border-bottom: solid 5px rgb(211, 91, 91);
+    border-radius: 8px 8px 0px 0px;
+
+
+}
+#registro .form-registro{
+    width: 95%;
+    margin: auto;
+    max-width: 600px;
+    background: whitesmoke;
+    border-radius: 8px;
+}
+
+#registro .contenedor-input{
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#registro input{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#registro .btn-registrar{
+    background: rgb(48, 48, 48);
+    margin: auto;
+    color: whitesmoke;
+}

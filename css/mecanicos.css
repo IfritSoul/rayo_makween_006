@@ -1,0 +1,26 @@
+#mecanicos {
+    margin-top: 40px ;
+    margin-bottom: 40px;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+#mecanicos h2,h4{
+    font-family: inherit;
+}
+
+#mecanicos .row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#mecanicos .row img{
+    width: 200px;
+    height: 200px;
+    border: solid 2px red;
+    border-radius: 20%;
+}
+#mecanicos .row .col{
+    margin: 15px;
+}

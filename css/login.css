@@ -1,0 +1,41 @@
+#login{
+    background: rgb(218, 81, 81);
+    padding: 45px;
+    margin: auto;
+
+}
+#login .login-texto{
+    background: rgb(77, 77, 77);
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    border-bottom: solid 5px rgb(211, 91, 91);
+    border-radius: 8px 8px 0px 0px;
+}
+.form-login{
+    width: 95%;
+    margin: auto;
+    max-width: 500px;
+    background: whitesmoke;
+    border-radius: 8px;
+}
+#login .contenedor-login{
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+#login input{
+    padding: 10px;
+    margin-bottom: 25px;
+
+}
+.btnLogin{
+    background: rgb(48, 48, 48);
+    margin: auto;
+    color: whitesmoke;
+    
+
+}

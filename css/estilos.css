@@ -10,7 +10,7 @@
 @import url(redes.css);
 @import url(carrusel.css);
 @import url(detalle.css);
-@import url(mapa.css);
+
 * {
     margin:0;
     padding: 0;
@@ -50,6 +50,7 @@ footer p{
 }
 #mapa{
     padding: 30px;
+    margin: auto;
 
 }
 

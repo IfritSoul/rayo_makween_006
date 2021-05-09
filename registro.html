@@ -38,13 +38,13 @@
             </div>
         </section>
         <section id="registro">
-            <form class="form-registro" action="" method="POST">
+            <form class="form-registro" action="" method="POST" onsubmit="return validarForm()">
                 <h2 class="form-titulo">Crear una Cuenta</h2>
                 <div class="contenedor-input">
                     <input class="col-6" type="text" name="txtNombre" id="txtNombre" placeholder="Ingrese Nombre"
                         required minlength="2" maxlength="10">
                     <input class="col-6" type="text" name="txtApellidos" id="txtApellidos"
-                        placeholder="Ingrese Apellidos" required>
+                        placeholder="Ingrese Apellidos" required minlength="2" maxlength="40">
                     <input class="col-12" type="email" name="txtEmail" id="txtEmail" placeholder="Ingrese correo"
                         required>
                     
@@ -57,11 +57,35 @@
                     <input class="col-6" type="date" name="txtFechaNaci" id="txtFechaNaci">
 
                     <input class="btn-registrar" type="submit" value="Registrar " onclick="mensaje()">
-                    <input class="btn-registrar" type="submit" value="validar rut" onclick="validarut()">
+                    <input class="btn-registrar" type="button" value="grabar" onclick="grabar()">
+                    <input class="btn-registrar" type="submit" value="validar formulario" onclick="validaForm()">
 
                 </div>
             </form>
         </section>
+        <script src="js/usuario.js"></script>
+        <script>
+            var arreglo= new Array();
+            var ind=0;
+
+            function grabar(){
+                var rut =document.getElementById('txtRut').value;
+                var nombre = document.getElementById('txtNombre').value;
+                var apellidos = document.getElementById('txtApellidos').value;
+                var fecha = document.getElementById('txtFechaNaci').value;
+                usu = new usuario();
+                usu.setRut(rut);
+                usu.setNombre(nombre);
+                usu.setApellidos(apellidos);
+                usu.setFecha(fecha);
+                console.log(usu.imprimir());
+                arreglo[ind]=JSON.stringify(usu);
+                localStorage.setItem('registros',arreglo);
+                alert('Usuario grabado');
+                ind++;
+
+            }
+        </script>
 
 
 
